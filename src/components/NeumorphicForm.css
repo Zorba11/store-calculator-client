@@ -1,0 +1,63 @@
+body, input, button {
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+div {
+    color: #53cbd3;
+    text-shadow: 1px 1px 1px #FFF;
+  }
+
+button, input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color:#EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 16px*1.5;
+    width: 100%;
+  }
+  
+  input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 70%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  input:focus {
+    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+  
+  button {
+    color:#53cbd3;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF,  5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+  }
+  
+  button:active {
+    color:#0bbb6c;
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+  
+  .price-series {
+    margin-left: 23vw;
+  }
